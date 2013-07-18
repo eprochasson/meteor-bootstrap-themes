@@ -151,8 +151,8 @@
 
 // Sprite icons path
 // -------------------------
-@iconSpritePath:          "/packages/meteor-bootstrap-themes/lib/img/glyphicons-halflings.png";
-@iconWhiteSpritePath:     "/packages/meteor-bootstrap-themes/lib/img/glyphicons-halflings-white.png";
+@iconSpritePath:          "/packages/bootstrap-themes/lib/img/glyphicons-halflings.png";
+@iconWhiteSpritePath:     "/packages/bootstrap-themes/lib/img/glyphicons-halflings-white.png";
 
 
 // Input placeholder text color
