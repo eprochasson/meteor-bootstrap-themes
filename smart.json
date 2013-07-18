@@ -1,0 +1,11 @@
+{
+  "name": "bootstrap-less",
+  "description": "Twitter's Bootstrap Packaged for Meteor, using Less",
+  "homepage": "https://github.com/ianserlin/meteor-bootstrap-less",
+  "author": "Ian Serlin <meteor-bootstrap-less@ianserlin.com> (http://ianserlin.com)",
+  "version": "2.3.1",
+  "git": "git@github.com:ianserlin/meteor-bootstrap-less.git",
+  "packages": {
+  	
+  }
+}
