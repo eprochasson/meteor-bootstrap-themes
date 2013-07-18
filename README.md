@@ -38,4 +38,4 @@ This package is licensed with the MIT license. [Twitter's Bootstrap License](htt
 
 ## Contributors
 - Original package from https://github.com/ianserlin/meteor-bootstrap-less
-- Emmanuel Prochasson
+- [Emmanuel Prochasson](https://github.com/eprochasson/)
