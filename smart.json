@@ -1,11 +1,11 @@
 {
-  "name": "bootstrap-less",
-  "description": "Twitter's Bootstrap Packaged for Meteor, using Less",
-  "homepage": "https://github.com/ianserlin/meteor-bootstrap-less",
-  "author": "Ian Serlin <meteor-bootstrap-less@ianserlin.com> (http://ianserlin.com)",
-  "version": "2.3.1",
-  "git": "git@github.com:ianserlin/meteor-bootstrap-less.git",
+  "name": "bootstrap-themes",
+  "description": "Twitter's Bootstrap Packaged for Meteor with Themes, using Less",
+  "homepage": "https://github.com/eprochasson/meteor-bootstrap-themes",
+  "author": "Emmanuel Prochasson https://github.com/eprochasson/",
+  "version": "0.0.1",
+  "git": "git@github.com:eprochasson/meteor-bootstrap-themes.git",
   "packages": {
-  	
+  	      
   }
 }
