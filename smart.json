@@ -4,8 +4,8 @@
   "homepage": "https://github.com/eprochasson/meteor-bootstrap-themes",
   "author": "Emmanuel Prochasson https://github.com/eprochasson/",
   "version": "0.0.1",
-  "git": "git@github.com:eprochasson/meteor-bootstrap-themes.git",
+  "git": "https://github.com/eprochasson/meteor-bootstrap-themes",
   "packages": {
-  	      
+
   }
 }
