@@ -1,6 +1,8 @@
 # Bootstrap in Less, with Themes
 ## Twitter's Bootstrap+Themes Packaged for Meteor, using Less
 
+This package is a fork of https://github.com/ianserlin/meteor-bootstrap-less introducing themes (and actually working -- I think).
+
 [Bootstrap](http://twitter.github.com/bootstrap) The sleek, intuitive, and powerful front-end framework for faster and easier web development.
 
 ## How is this different from the official Meteor Bootstrap package?
@@ -16,11 +18,24 @@ The official package contains the compiled CSS files, meaning you don't get all 
 
 Themes available:
 - cerulean
+- amelia
 
-## Meteor-Bootstrap-Themes License
+## How to add a new theme?
 
-MIT
+1. Fork this repo.
+2. Create a folder under theme with the name
+3. Copy variables.less as variables.lessimport, bootswatch.less as <theme_name>.lessimport.
+4. Edit variables.less and remove the @iconSpritePath & @iconWhiteSpritePath variable (as they are defiend in bootstrap)
+5. Add
+ @import "../../less/bootstrap.lessimport";
+ @import "variables.lessimport";
+at the beginning of the <template_name>.lessimport file.
+6. Submit a pull request.
 
-## Twitter's Bootstrap License
+## License stuff
 
-See their [License](https://github.com/twitter/bootstrap)
+This package is licensed with the MIT license. [Twitter's Bootstrap License](https://github.com/twitter/bootstrap). Themes downloaded from [Bootswatch](http://bootswatch.com/)
+
+## Contributors
+- Original package from https://github.com/ianserlin/meteor-bootstrap-less
+- Emmanuel Prochasson
