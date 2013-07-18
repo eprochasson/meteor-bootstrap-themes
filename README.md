@@ -31,7 +31,7 @@ Themes available:
 2. Create a folder under theme with the name of the theme.
 3. Put in there the less file for the theme, make sure to change the extension to .lessimport.
 4. Remove the @iconSpritePath & @iconWhiteSpritePath variable definition if any (as they are defiend in bootstrap)
-5. `@import "../../less/bootstrap.lessimport";` (and then other file you need to import for this theme, say `@import "variables.lessimport";`) at the beginning of the <template_name>.lessimport file.
+5. Add `@import "../../less/bootstrap.lessimport";` (and then other file you need to import for this theme, say `@import "variables.lessimport";`) at the beginning of the <template_name>.lessimport file.
 6. Submit a pull request.
 
 Please do not add non-free themes/themes under a non-free license.
