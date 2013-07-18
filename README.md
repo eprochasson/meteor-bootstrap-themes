@@ -9,6 +9,8 @@ This package is a fork of https://github.com/ianserlin/meteor-bootstrap-less int
 
 The official package contains the compiled CSS files, meaning you don't get all the LESSy goodness like mixins, variables, etc that makes customizing Bootstrap super awesome. This unofficial package contains the source less files, but modified so that they can be loaded properly by Meteor's `less` package.
 
+Also, it includes (some of) the Bootstrap Themes so that you can pick one out of the box, then tune it with your own LESS stylesheet. Whoop Whoop!
+
 ## How to install 
 
 1. `npm install -g meteorite` (if not already installed)
