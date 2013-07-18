@@ -19,12 +19,16 @@ The official package contains the compiled CSS files, meaning you don't get all 
 Themes available:
 - cerulean
 - amelia
+- cosmo
+- cyborg
+- flatly
 
 ## How to add a new theme?
 
 1. Fork this repo.
 2. Create a folder under theme with the name
-3. Copy variables.less as variables.lessimport, bootswatch.less as <theme_name>.lessimport.
+
+3. Pick your theme on [Bootswatch](http://bootswatch.com/). Copy variables.less as variables.lessimport, bootswatch.less as <theme_name>.lessimport.
 4. Edit variables.less and remove the @iconSpritePath & @iconWhiteSpritePath variable (as they are defiend in bootstrap)
 5. Add
  @import "../../less/bootstrap.lessimport";
