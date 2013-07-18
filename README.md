@@ -22,6 +22,8 @@ Themes available:
 - cosmo
 - cyborg
 - flatly
+- superhero
+- slate
 
 ## How to add a new theme?
 
@@ -35,6 +37,8 @@ Themes available:
  @import "variables.lessimport";
 at the beginning of the <template_name>.lessimport file.
 6. Submit a pull request.
+
+Please do not add non-free themes/themes under a non-free license.
 
 ## License stuff
 

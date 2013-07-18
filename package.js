@@ -1,7 +1,7 @@
 var path = Npm.require('path');
 
 Package.describe({
-  summary: "Twitter's Bootstrap Packaged for Meteor, using Less, with some templates!"
+  summary: "Twitter's Bootstrap Packaged for Meteor, with Themes, using Less"
 });
 
 Package.on_use(function (api) {
