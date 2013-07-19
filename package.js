@@ -5,8 +5,9 @@ Package.describe({
 });
 
 Package.on_use(function (api) {
-  api.use('less', 'client');
-  api.add_files(path.join('lib', 'js', 'bootstrap.js'), 'client');
+  api.use(['bootstrap','less'], 'client');
+
+//  api.add_files(path.join('lib', 'js', 'bootstrap.js'), 'client');
   api.add_files(path.join('lib', 'img', 'glyphicons-halflings.png'), 'client');
   api.add_files(path.join('lib', 'img', 'glyphicons-halflings-white.png'), 'client');
 });

@@ -3,7 +3,7 @@
   "description": "Twitter's Bootstrap Packaged for Meteor with Themes, using Less",
   "homepage": "https://github.com/eprochasson/meteor-bootstrap-themes",
   "author": "Emmanuel Prochasson",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "git": "https://github.com/eprochasson/meteor-bootstrap-themes",
   "packages": {
 
