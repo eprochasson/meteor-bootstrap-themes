@@ -1,7 +1,7 @@
 # Bootstrap in Less, with Themes
 ## Twitter's Bootstrap+Themes Packaged for Meteor, using Less
 
-This package is a fork of https://github.com/ianserlin/meteor-bootstrap-less introducing themes (and actually working -- I think).
+This package is a fork of https://github.com/ianserlin/meteor-bootstrap-less introducing themes.
 
 [Bootstrap](http://twitter.github.com/bootstrap) The sleek, intuitive, and powerful front-end framework for faster and easier web development.
 
