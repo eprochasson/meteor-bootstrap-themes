@@ -17,7 +17,7 @@ Also, it includes (some of) the Bootstrap Themes so that you can pick one out of
 1. `npm install -g meteorite` (if not already installed)
 2. `mrt add less`
 3. `mrt add bootstrap-themes`
-4. Create a .less file anywhere in your project to be served to the client and add `@import "/packages/meteor-bootstrap-themes/lib/themes/<theme>/<theme>.lessimport";` or `@import "/packages/meteor-bootstrap-themes/lib/less/bootstrap.lessimport";` for vanilla bootstrap.
+4. Create a .less file anywhere in your project to be served to the client and add `@import "/packages/bootstrap-themes/lib/themes/<theme>/<theme>.lessimport";` or `@import "/packages/bootstrap-themes/lib/less/bootstrap.lessimport";` for vanilla bootstrap.
 
 also, make sure to remove bootstrap if installed, otherwise the .js gets loaded twice with unpredictable results:
 5. `meteor remove bootstrap`
